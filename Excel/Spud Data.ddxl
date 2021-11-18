@@ -1,0 +1,199 @@
+<DungeonDelveXLSaveGame>
+ <Header>
+  <Version>1.9</Version>
+  <TimeStamp>18/11/2021 07:53:59</TimeStamp>
+  <User>joeys</User>
+  <RandomCheck>2045826766451796944815671337</RandomCheck>
+ </Header>
+ <Map>
+  <Seed>27905.08</Seed>
+  <ExplorationRLE First="0">54,5,60,5,61,3,4037</ExplorationRLE>
+  <Towns>
+   <Town Name="Northway" X="56" Y="0" Rep="150">
+    <Building ID="1">
+     <LastVisit>0</LastVisit>
+     <Stock>
+      <Mission Seed="1414.367" Diff="1"/>
+      <Mission Seed="7483.55" Diff="1"/>
+      <Mission Seed="3723.479" Diff="1"/>
+      <Mission Seed="1155.576" Diff="1"/>
+      <Mission Seed="1285.057" Diff="1"/>
+      <Mission Seed="2320.44" Diff="2"/>
+      <Mission Seed="8924.827" Diff="2"/>
+      <Mission Seed="652.1296" Diff="2"/>
+      <Mission Seed="3537.022" Diff="2"/>
+      <Mission Seed="7583.043" Diff="2"/>
+      <Mission Seed="2104.977" Diff="2"/>
+      <Mission Seed="7162.285" Diff="2"/>
+      <Mission Seed="9959.286" Diff="3"/>
+      <Mission Seed="7739.853" Diff="3"/>
+      <Mission Seed="5463.592" Diff="3"/>
+      <Mission Seed="1569.396" Diff="3"/>
+      <Mission Seed="5694.135" Diff="3"/>
+      <Mission Seed="6439.406" Diff="3"/>
+     </Stock>
+    </Building>
+   </Town>
+  </Towns>
+  <Roads>
+  </Roads>
+ </Map>
+ <Party>
+  <Cash>1000</Cash>
+  <MapX>56</MapX>
+  <MapY>0</MapY>
+  <Day>0</Day>
+  <Fatigue>0</Fatigue>
+  <Storage>0</Storage>
+  <MapSize>32</MapSize>
+  <Characters>
+   <Character Name="Spud">
+    <Class>Wizard</Class>
+    <Race>Goblin</Race>
+    <Level>1</Level>
+    <Stats>5,5,10,14,16</Stats>
+    <Symbol>S</Symbol>
+    <XP>0</XP>
+    <HP>18</HP>
+    <Stamina>12</Stamina>
+    <Active>True</Active>
+    <Blessed>0</Blessed>
+    <Acted>False</Acted>
+    <MapID>0</MapID>
+    <X>24</X>
+    <Y>31</Y>
+    <WSkills Points="0">
+    </WSkills>
+    <NWSkills Points="1">
+     <Skill Name="First Aid">1</Skill>
+     <Skill Name="Bowyer">1</Skill>
+    </NWSkills>
+    <Inventory>
+    </Inventory>
+    <Equipment>
+     <Item/>
+     <Item>
+      <ItemType Skill="Tailor">Basic Tunic</ItemType>
+      <Mats>Wool Cloth</Mats>
+     </Item>
+     <Item/>
+     <Item/>
+     <Item>
+      <ItemType Skill="Leatherworker">Basic Shoes</ItemType>
+      <Mats>Light Leather</Mats>
+     </Item>
+     <Item/>
+     <Item>
+      <ItemType Skill="Alchemist">Basic Torch</ItemType>
+      <Mats>Pine</Mats>
+     </Item>
+     <Item>
+      <ItemType Skill="Weaponsmith">Basic Staff</ItemType>
+      <Mats>Pine</Mats>
+     </Item>
+     <Item/>
+     <Item/>
+     <Item/>
+    </Equipment>
+    <Spells>
+     <Spell name="Missile" level="1"/>
+    </Spells>
+   </Character>
+  </Characters>
+  <Inventory>
+  </Inventory>
+  <Mission Seed="7361.629" Name="Terminate the Bandit Leader">
+   <Diff>1</Diff>
+   <Primary>Bandit</Primary>
+   <Secondary></Secondary>
+   <Size>1</Size>
+   <Levels>1</Levels>
+   <Heroic>False</Heroic>
+   <Task>A</Task>
+   <TaskData>Bandit Leader</TaskData>
+   <Reward>210</Reward>
+   <Terrain>D</Terrain>
+   <TaskData>Bandit Leader</TaskData>
+   <CurrentLevel>0</CurrentLevel>
+   <Maps>
+    <Map>
+     <Seed>28176.69</Seed>
+     <ExplorationRLE First="0">1058,6,34,13,26,15,27,13,30,9,31,5,35,5,293</ExplorationRLE>
+     <Creatures>
+      <Creature>
+       <Type>Bandit Leader</Type>
+       <Level>1</Level>
+       <HP>25.5</HP>
+       <Stamina>21</Stamina>
+       <X>10</X>
+       <Y>7</Y>
+       <CTarget>-1</CTarget>
+       <CSummoner>-1</CSummoner>
+      </Creature>
+      <Creature>
+       <Type>Bandit Mage</Type>
+       <Level>1</Level>
+       <HP>10.5</HP>
+       <Stamina>17</Stamina>
+       <X>9</X>
+       <Y>8</Y>
+       <CTarget>-1</CTarget>
+       <CSummoner>-1</CSummoner>
+      </Creature>
+      <Creature>
+       <Type>Bandit</Type>
+       <Level>1</Level>
+       <HP>13.5</HP>
+       <Stamina>17</Stamina>
+       <X>24</X>
+       <Y>19</Y>
+       <CTarget>-1</CTarget>
+       <CSummoner>-1</CSummoner>
+      </Creature>
+     </Creatures>
+     <Mods>
+     </Mods>
+     <Items>
+      <MapItem>
+       <Cash>55</Cash>
+       <X>10</X>
+       <Y>6</Y>
+       <Items>
+        <Item>
+         <ItemType Skill="Weaponsmith">Basic Sword</ItemType>
+         <Mats>Bronze,Pine</Mats>
+        </Item>
+       </Items>
+      </MapItem>
+      <MapItem>
+       <Cash>70</Cash>
+       <X>8</X>
+       <Y>30</Y>
+       <Items>
+        <Item>
+         <ItemType Skill="Alchemist">Potion of Replenishment</ItemType>
+         <Mats>Liverfern,Yellowleaf</Mats>
+        </Item>
+       </Items>
+      </MapItem>
+      <MapItem>
+       <Cash>75</Cash>
+       <X>19</X>
+       <Y>33</Y>
+       <Items>
+        <Item>
+         <ItemType Skill="Leatherworker">Basic Shoes</ItemType>
+         <Mats>Light Leather</Mats>
+        </Item>
+        <Item>
+         <ItemType Skill="Jewelsmith">$ Ring</ItemType>
+         <Mats>Amethyst,Platinum</Mats>
+        </Item>
+       </Items>
+      </MapItem>
+     </Items>
+    </Map>
+   </Maps>
+  </Mission>
+ </Party>
+</DungeonDelveXLSaveGame>
